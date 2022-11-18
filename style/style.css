@@ -38,6 +38,11 @@ img {
 
 /* ms */
 
+#timebar {
+    font-size: 100px;
+    color: white;
+}
+
 .ms_cont{
     background-image: url("../img/wp4037833-arcade-wallpapers.jpg");
     background-size: cover;
@@ -49,6 +54,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
+    margin-top: 80px;
 }
 
 .box {
@@ -60,7 +66,14 @@ img {
     justify-content: center;
 
 }
-
+.start {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: darkblue;
+}
 .hot {
     background-color: red;
 }
