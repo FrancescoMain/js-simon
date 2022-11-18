@@ -1,0 +1,70 @@
+/* regole generali  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+
+   max-width: 100%;;
+ 
+
+}
+
+
+
+/* utility */
+
+.hidden {
+    display: none;
+}
+
+.active {
+
+    display: block;
+
+}
+
+/* ms */
+
+.ms_cont{
+    background-image: url("../img/wp4037833-arcade-wallpapers.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#griglia {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.box {
+    width: calc(100% / 3 - 20px);
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hot {
+    background-color: red;
+}
+/* bs rules  */
+
+
+
